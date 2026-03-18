@@ -1,0 +1,49 @@
+.Education h1{
+    font-size: 45px;
+}
+
+.Education h3{
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.Education-Background {
+    background: linear-gradient(135deg,purple, #0f172a, #1e1b4b, #330543, purple);
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Education {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.Education-Matric{
+    text-align: center;
+    border-radius: 42px;
+    background-color: rgba(255, 255, 255, 0.262);
+    backdrop-filter: blur(10px) ;
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 60px;
+    box-shadow: 0 4px 30px rgb(255, 255, 255);
+    width: 30%;
+    padding: 20px;
+}
+
+.Education-Diploma{
+    text-align: center;
+    border-radius: 42px;
+    background-color: rgba(255, 255, 255, 0.262);
+    backdrop-filter: blur(10px) ;
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 60px;
+    box-shadow: 0 4px 30px rgb(255, 255, 255);
+    width: 30%;
+    padding: 20px;
+}

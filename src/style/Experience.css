@@ -1,0 +1,41 @@
+.Experience {
+    margin: auto;
+    background: linear-gradient(135deg, purple, #0f172a, #1e1b4b, #330543, purple);
+    height: 1334px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Experience h1 {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.Experience h2 {
+    width: 12px;
+    height: 12px;
+    background-color: #800779;
+    border-radius: 50%;
+    font-size: 34px;
+    margin-bottom: 38px;
+}
+
+.Experience-Details {
+    border-radius: 5px;
+    width: 70%;
+    padding-bottom: 35px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-right: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px) ;
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgb(255, 255, 255);
+    color: white;
+}

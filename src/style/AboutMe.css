@@ -1,0 +1,18 @@
+.AboutMe{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.AboutMe-Background {
+    background-color: white;
+    padding: 80px;
+    padding-bottom: 200px;
+}
+
+.AboutMe h1 {
+    padding-bottom: 36px;
+    background: linear-gradient(to right, rgb(51, 239, 221) 25%, #893dd4 55%, purple 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

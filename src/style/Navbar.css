@@ -1,0 +1,47 @@
+.Navbar button img {
+    width: 25px;
+    height: 28px;
+}
+
+.Navbar button {
+    border: none;
+    background: transparent;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+.Navbar {
+    position: fixed;
+    right: 45px;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 20px;
+    padding-top: 47px;
+    padding-bottom: 20px;
+    height: 280px;
+
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 8px 35px rgb(255, 255, 255);
+
+}
+
+.Navbar button :hover {
+   border-bottom: 4px solid;
+  color: rgb(203, 60, 8);
+   border-radius: 7px;
+}
+
+.Navbar.glass {
+    background-color: rgb(129, 253, 115);
+    backdrop-filter: blur(20px) ;
+    box-shadow: 0 9px 48px rgb(162, 163, 163);
+    -webkit-backdrop-filter: blur(20px);
+    border: none;
+}
+
+
+
